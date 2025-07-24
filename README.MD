@@ -1,2 +1,1 @@
-[lIVE-LINK]
-(https://aliraj15dev.github.io/second-assignment/)
+[LIVE-LINK](https://aliraj15dev.github.io/second-assignment/)
