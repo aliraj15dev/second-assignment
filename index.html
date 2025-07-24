@@ -1,73 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faugei Flower Shop  </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faugei Flower Shop</title>
 
     <!-- Tailwindcss CDN -->
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-     <!-- Font-Awesome CDN -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font-Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Google font CDN -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-</head>
-<body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- header section start -->
-<header>
-
-    <!-- navbar design and style start -->
-     <nav class="max-w-9/10 mx-auto mt-10 flex justify-between gap-10 items-center">
-
+    <header>
+      <!-- navbar design and style start -->
+      <nav
+        class="max-w-9/10 mx-auto mt-10 flex justify-between gap-10 items-center"
+      >
         <div>
-            <img src="assets/logo.png" alt="Brand Logo">
+          <img src="assets/logo.png" alt="Brand Logo" />
         </div>
 
         <div class="hidden sm:block">
-            <ul class="flex justify-between gap-20 text-2xl">
-                <li><a href="#">Home</a></li>
-                <li><a class="text-gray-500" href="#">Shop</a></li>
-                <li><a class="text-gray-500" href="#">About Us</a></li>
-            </ul>
+          <ul class="flex justify-between gap-20 text-2xl">
+            <li><a href="#">Home</a></li>
+            <li><a class="text-gray-500" href="#">Shop</a></li>
+            <li><a class="text-gray-500" href="#">About Us</a></li>
+          </ul>
         </div>
 
-        <div class="block sm:hidden flex gap-5 text-2xl items-center">
-           <i class="fa-solid fa-cart-shopping"></i>
-           <h5>Cart ($56)</h5>
-
+        <div class="block sm:hidden">
+          <div class="flex gap-5 text-2xl items-center">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h5>Cart ($56)</h5>
+          </div>
         </div>
-
-     </nav>
-
-</header>
+      </nav>
+    </header>
 
     <!-- main section start -->
-<main>
-    <!-- banner section start -->
-    <section class="max-w-9/10 mx-auto mt-20 flex flex-col-reverse  items-end gap-y-6 md:flex-row">
-
+    <main>
+      <!-- banner section start -->
+      <section class="max-w-9/10 mx-auto mt-20 flex flex-col-reverse items-end gap-y-6 md:flex-row">
+        
         <div>
-            <h1 class="font-[Noto-Sans] uppercase text-4xl lg:text-6xl font-bold ">Always <span class="text-orange-500">fresh <br> flowers</span></h1>
-            <p class="max-w-4/5 text-lg sm:text-xl lg:text-2xl text-gray-700">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+          <h1 class="font-[Noto-Sans] uppercase text-4xl lg:text-6xl font-bold">
+            Always
+            <span class="text-orange-500"
+              >fresh <br />
+              flowers</span
+            >
+          </h1>
+          <p class="max-w-4/5 text-lg sm:text-xl lg:text-2xl text-gray-700">
+            Welcome to Faugei Flower Shop, where every flower tells a story. We
+            offer fresh, handpicked blooms daily from elegant roses to cheerful
+            sunflowers. Whether it’s for birthdays, weddings, or just to
+            brighten someone’s day, our flowers are arranged with love and care.
+          </p>
         </div>
 
-            <img class="md:max-w-1/2" src="assets/hero-flower.png" alt="Banner Image">
+        <img class="md:max-w-1/2" src="assets/hero-flower.png" alt="Banner Image"/>
 
-    </section>
+      </section>
 
-</main>
+      <!-- plants section start -->
+       <section class="max-w-9/10 mx-auto">
 
-<footer>
+        <div class="text-center mt-10">
+            <h2 class="font-[Noto-Sans] text-5xl font-bold mb-2.5"><span class="text-orange-500">Our</span> Plants</h2>
+            <p class="text-lg sm:text-xl lg:text-2xl text-gray-700 max-w-3/4 mx-auto">Brighten your space with fresh flowers and vibrant indoor plants. From elegant bouquets to air-purifying greens, we offer nature's beauty for every corner of your home or office.</p>
+        </div>
 
-</footer>
+        <div class="mt-10 grid grid-cols-2 gap-5 md:grid-cols-4">
+
+            <div class="space-y-5 text-center">
+                <img class="w-full block" src="assets/sample-flower-image.png" alt="">
+                <h4 class="text-2xl font-medium">Lily Blossom</h4>
+                <h5 class="text-2xl font-bold">20 USD</h5>
+                <button class="text-white bg-orange-500 font-semibold px-5 py-4 md:py-6 md:px-10 w-full" onclick="alert('Flower Added to Cart !')" >ADD TO CART</button>
+            </div>
+
+            <div class="space-y-5 text-center">
+                <img class="w-full block" src="assets/sample-flower-image.png" alt="">
+                <h4 class="text-2xl font-medium">Lily Blossom</h4>
+                <h5 class="text-2xl font-bold">20 USD</h5>
+                <button class="text-white bg-orange-500 font-semibold px-5 py-4 md:py-6 md:px-10 w-full" onclick="alert('Flower Added to Cart !')" >ADD TO CART</button>
+            </div>
+
+            <div class="space-y-5 text-center">
+                <img class="w-full block" src="assets/sample-flower-image.png" alt="">
+                <h4 class="text-2xl font-medium">Lily Blossom</h4>
+                <h5 class="text-2xl font-bold">20 USD</h5>
+                <button class="text-white bg-orange-500 font-semibold px-5 py-4 md:py-6 md:px-10 w-full" onclick="alert('Flower Added to Cart !')" >ADD TO CART</button>
+            </div>
+
+            <div class="space-y-5 text-center">
+                <img class="w-full block" src="assets/sample-flower-image.png" alt="">
+                <h4 class="text-2xl font-medium">Lily Blossom</h4>
+                <h5 class="text-2xl font-bold">20 USD</h5>
+                <button class="text-white bg-orange-500 font-semibold px-5 py-4 md:py-6 md:px-10 w-full" onclick="alert('Flower Added to Cart !')" >ADD TO CART</button>
+            </div>
+
+            <div class="space-y-5 text-center">
+                <img class="w-full block" src="assets/sample-flower-image.png" alt="">
+                <h4 class="text-2xl font-medium">Lily Blossom</h4>
+                <h5 class="text-2xl font-bold">20 USD</h5>
+                <button class="text-white bg-orange-500 font-semibold px-5 py-4 md:py-6 md:px-10 w-full" onclick="alert('Flower Added to Cart !')" >ADD TO CART</button>
+            </div>
+
+            <div class="space-y-5 text-center">
+                <img class="w-full block" src="assets/sample-flower-image.png" alt="">
+                <h4 class="text-2xl font-medium">Lily Blossom</h4>
+                <h5 class="text-2xl font-bold">20 USD</h5>
+                <button class="text-white bg-orange-500 font-semibold px-5 py-4 md:py-6 md:px-10 w-full" onclick="alert('Flower Added to Cart !')" >ADD TO CART</button>
+            </div>
+
+            <div class="space-y-5 text-center">
+                <img class="w-full block" src="assets/sample-flower-image.png" alt="">
+                <h4 class="text-2xl font-medium">Lily Blossom</h4>
+                <h5 class="text-2xl font-bold">20 USD</h5>
+                <button class="text-white bg-orange-500 font-semibold px-5 py-4 md:py-6 md:px-10 w-full" onclick="alert('Flower Added to Cart !')" >ADD TO CART</button>
+            </div>
+
+            <div class="space-y-5 text-center">
+                <img class="w-full block" src="assets/sample-flower-image.png" alt="">
+                <h4 class="text-2xl font-medium">Lily Blossom</h4>
+                <h5 class="text-2xl font-bold">20 USD</h5>
+                <button class="text-white bg-orange-500 font-semibold px-5 py-4 md:py-6 md:px-10 w-full" onclick="alert('Flower Added to Cart !')" >ADD TO CART</button>
+            </div>
 
 
+        </div>
 
-</body>
+       </section>
+
+
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
